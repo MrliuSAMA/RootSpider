@@ -5,7 +5,7 @@ import time
 import sched
 import os
 
-PREFIX = "/usr/local/RootSpider"
+PREFIX = "/opt/RootSpider"
 
 
 def spider():
@@ -28,7 +28,7 @@ def spider():
 	print "total item is %s" % len(QueryList)	
 	
 
-	outFileName = time.strftime("%F-%H:%M-")+"res.out"
+	outFileName = time.strftime("%F_%T_")+"res.out"
 	f = open("./DataBak/%s" % outFileName,'a')
 	for i in range(len(QueryList[:])):
 		print "current item is %s" % i

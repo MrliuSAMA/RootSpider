@@ -5,7 +5,7 @@ import time
 import sched
 import os
 
-PREFIX = "/usr/local/RootSpider"
+PREFIX = "/opt/RootSpider"
 
 
 def spider():

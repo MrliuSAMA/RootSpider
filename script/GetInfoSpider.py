@@ -4,9 +4,9 @@ from __future__ import print_function
 import re
 import subprocess
 
-#ControlPREFIX = "/usr/local/RootZoneCollector/"
-DataPREFIX = "/usr/local/RootSpider/DataBak"
-ControlPREFIX = "/usr/local/RootSpider"
+#ControlPREFIX = "/opt/RootZoneCollector/"
+DataPREFIX = "/opt/RootSpider/DataBak"
+ControlPREFIX = "/opt/RootSpider"
 def ReturnConfig(DataPREFIX,ControlPREFIX):
 
 
